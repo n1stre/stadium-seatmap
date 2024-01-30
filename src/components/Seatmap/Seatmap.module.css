@@ -1,7 +1,3 @@
-.seatmap {
-  position: absolute;
-}
-
 .section {
   fill: var(--section-fill, "#fff");
   stroke: var(--section-stroke, "#000");
