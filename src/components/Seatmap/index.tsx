@@ -4,7 +4,6 @@ import { AvailableSeats, Dict, SeatMap, Section } from "@/types";
 import useDragging from "@/hooks/useDragging";
 import SeatmapFooter from "./SeatmapFooter";
 import SeatmapStaticGraphics from "./SeatmapStaticGraphics";
-import styles from "./Seatmap.module.css";
 import SeatmapSections from "./SeatmapSections";
 import { useParams } from "next/navigation";
 import SeatmapLoadedSectionsSeats from "./SeatmapLoadedSectionsSeats";
@@ -174,7 +173,7 @@ const Seatmap = ({ seatMap, sections, availableSeats }: Props) => {
     "--section-stroke": seatMap.settings.sectionStroke,
     transformOrigin: `50% 50%`,
     transform: `translate3d(${translate.current.x}px, ${translate.current.y}px, 0px) scale3d(${scale.current}, ${scale.current}, ${scale.current})`,
-    // pointerEvents: isTransitioning.current || isDragging ? "none" : "auto",
+    pointerEvents: isTransitioning.current || isDragging ? "none" : "auto",
     transition: isTransitioning.current ? TRANSITION_VALUE : "none",
     // willChange: "transform",
   } as React.CSSProperties;
