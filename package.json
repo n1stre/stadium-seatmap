@@ -2,11 +2,16 @@
   "name": "stadium-seatmap",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "^20"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "fakedb:split-stadium-seats-per-section": "node ./src/db/fake/scripts/splitStadiumSeatsPerSectionByFiles.mjs",
+    "fakedb:generate-stadium-available-seats": "node ./src/db/fake/scripts/generateStadiumAvailableSeatsPerSection.mjs"
   },
   "dependencies": {
     "react": "^18",

@@ -1,0 +1,6 @@
+.section {
+}
+
+.section:global(.js-seatmap-section--hovered) {
+  background: #eee;
+}

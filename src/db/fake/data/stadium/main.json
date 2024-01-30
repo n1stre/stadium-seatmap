@@ -1,0 +1,19 @@
+{
+  "id": "stadium",
+  "width": 1201,
+  "height": 932,
+  "props": "<rect width=\"1201\" height=\"932\" rx=\"380\" fill=\"#D9D9D9\" /><rect x=\"239\" y=\"239\" width=\"722\" height=\"454\" rx=\"153\" fill=\"#8BD48E\" stroke=\"#D9D9D9\" strokeWidth=\"20\"/><g fill=\"#4B814D\"><rect x=\"345.214\" y=\"339.16\" width=\"48\" height=\"256\" /><rect x=\"396.214\" y=\"339.16\" width=\"48\" height=\"256\" /><rect x=\"447.214\" y=\"339.16\" width=\"48\" height=\"256\" /><rect x=\"498.214\" y=\"339.16\" width=\"48\" height=\"256\" /><rect x=\"549.214\" y=\"339.16\" width=\"48\" height=\"256\" /><rect x=\"600.214\" y=\"339.16\" width=\"48\" height=\"256\" /><rect x=\"651.214\" y=\"339.16\" width=\"48\" height=\"256\" /><rect x=\"702.214\" y=\"339.16\" width=\"48\" height=\"256\" /><rect x=\"753.214\" y=\"339.16\" width=\"48\" height=\"256\" /><rect x=\"804.214\" y=\"339.16\" width=\"48\" height=\"256\" /></g>",
+  "settings": {
+    "sectionFill": "#eee",
+    "sectionFillHover": "cyan",
+    "sectionStroke": "#333",
+    "sectionStrokeWidth": 1,
+    "seatFill": "#fff",
+    "seatRadius": 1.5
+  },
+  "stats": {
+    "sectionsCount": 60,
+    "rowsCount": 1462,
+    "seatsCount": 16054
+  }
+}

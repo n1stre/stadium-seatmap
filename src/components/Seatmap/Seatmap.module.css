@@ -1,0 +1,32 @@
+.seatmap {
+  position: absolute;
+}
+
+.section {
+  fill: var(--section-fill, "#fff");
+  stroke: var(--section-stroke, "#000");
+  cursor: pointer;
+}
+
+.section:global(.js-seatmap-section--hovered) {
+  fill: var(--section-fill-hover);
+}
+
+.section:global(.js-seatmap-section--active) {
+  stroke-width: 2px;
+}
+
+.sectionSeats {
+  opacity: 0;
+  pointer-events: none;
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
